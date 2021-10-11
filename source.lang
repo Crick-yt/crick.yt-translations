@@ -12,7 +12,7 @@
 ## Routes
 
 # '/ping' Route
-route.ping=Pong! [%s]
+route.ping=Pong! (%s)
 
 # '/login' Route
 route.login.fail=Invalid Credentials
