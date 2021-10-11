@@ -1,0 +1,3 @@
+files:
+  - source: /source.lang
+    translation: /lang/%two_letters_code%.lang
