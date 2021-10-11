@@ -1,0 +1,36 @@
+# Comments can be specified by beginning a line with a '#'.
+#
+# All translations take are in the form of: key=value,
+# where the key is a descriptior getting more and more
+# specific with every '.'
+#
+# In translations with variables, use '%s' to indicate where
+# the variable should be inserted.
+#
+# Good luck translators, and thank you for your help.
+
+
+## Routes
+
+# '/ping' Route
+route.ping=Pong! [%s]
+
+# '/login' Route
+route.login.fail=Invalid Credentials
+route.login.success=Login Successful
+
+## User errors
+user.error.invalid_email=Invalid email address
+user.error.invalid_password=Invalid password
+user.error.invalid_username=Invalid username
+
+user.error.username_short=Username must be at least 3 characters
+user.error.username_long=Username must be at most 20 characters
+user.error.username_taken=Username already taken
+user.error.username_invalid=Username can only contain letters, numbers, and underscores
+
+user.error.invalid_username=No user exists with that username
+user.error.invalid_password=Invalid password
+
+## Generic Errors
+error.database=Database error
