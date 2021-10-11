@@ -11,12 +11,17 @@
 
 ## Routes
 
-# '/ping' Route
-route.ping=Pong! [%s]
+## '/ping' Route
+route.ping=Pong! (%s)
 
-# '/login' Route
+## '/login' Route
 route.login.fail=Invalid Credentials
 route.login.success=Login Successful
+
+## '/register' Route
+route.register.password_short=Password must be at least 8 characters long
+route.register.password_long=Password must be less than 72 characters long
+route.register.success=User crated successfully
 
 ## User errors
 user.error.invalid_email=Invalid email address
@@ -33,3 +38,4 @@ user.error.invalid_password=Invalid password
 
 ## Generic Errors
 error.database=Database error
+error.bcrypt=Bcrypt error
