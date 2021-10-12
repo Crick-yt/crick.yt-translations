@@ -21,7 +21,7 @@ route.login.success=Login Successful
 ## '/register' Route
 route.register.password_short=Password must be at least 8 characters long
 route.register.password_long=Password must be less than 72 characters long
-route.register.success=User crated successfully
+route.register.success=User created successfully
 
 ## User errors
 user.error.invalid_email=Invalid email address
